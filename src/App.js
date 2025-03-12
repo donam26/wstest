@@ -27,7 +27,7 @@ const App = () => {
       
       console.log('Cấu hình Pusher:', pusherConfig);
       
-      pusherRef.current = new Pusher('3cf8fz3vfkeudeuirvwz', pusherConfig);
+      pusherRef.current = new Pusher('b463f5507b4fc5b20e06', pusherConfig);
 
       // Log trạng thái connection
       console.log('Initial connection state:', pusherRef.current.connection.state);
