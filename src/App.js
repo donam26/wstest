@@ -22,7 +22,8 @@ const App = () => {
         forceTLS: false,
         encrypted: false,
         enabledTransports: ['ws', 'wss'],
-        cluster: 'ap1'
+        cluster: 'ap1',
+        wsPath: '/reverb'
       };
       
       console.log('Cấu hình Pusher:', pusherConfig);
